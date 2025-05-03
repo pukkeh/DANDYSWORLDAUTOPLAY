@@ -8,6 +8,7 @@ end
 
 game.Players.LocalPlayer.Chatted:Connect(function(msg)
 if string.lower(msg) == "stop" then
+    notify("yaya", "ayayay it works")
 return
 end
 end)
