@@ -1,3 +1,4 @@
+workspace:ClearAllChildren()
 function notify(text,text2,length)
 	task.spawn(function()
 		local LnotifyCount = notifyCount+1
